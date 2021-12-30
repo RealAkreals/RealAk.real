@@ -31,12 +31,59 @@
 .scale:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
    }
+   /* The sidebar menu */
+	.sidenav {
+	    height: 100%; /* Full-height: remove this if you want "auto" height */
+	    width: 55px; /* Set the width of the sidebar */
+	    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	    z-index: 1; /* Stay on top */
+	    top: 0; /* Stay at the top */
+	    left: 0;
+	    background-color: #111; /* Black */
+	    overflow-x: hidden; /* Disable horizontal scroll */
+	    padding-top: 20px;
+	}
+
+	/* The navigation menu links */
+	.sidenav a {
+	    padding: 6px 8px 6px 16px;
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: #818181;
+	    display: block;
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover {
+	    color: #f1f1f1;
+	}
+
+	/* Style page content */
+	.main {
+	    margin-left: 160px; /* Same as the width of the sidebar */
+	    padding: 0px 10px;
+	}
+
+	/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+	@media screen and (max-height: 450px) {
+	    .sidenav {padding-top: 15px;}
+	    .sidenav a {font-size: 18px;}
+	}
 	</style>
 	<center>
 		<h1 id="glaw">Выбирите Аккаунт Minecraft:</h1>
 	<a href="оплата.html"><img class="scale" src="https://cdn.discordapp.com/attachments/919610355544653924/922071556530774016/PicsArt_12-19-01.23.01.jpg" width="500" height="325"></a>
-	<a href="оплата.html"><img class="scale" src="https://cdn.discordapp.com/attachments/919610355544653924/922072125785927720/PicsArt_12-19-01.24.25.jpg" width="550" height="325"></a>
-	<a href="оплата.html"><img class="scale" src="https://cdn.discordapp.com/attachments/919610355544653924/922483222959501382/PicsArt_12-20-04.38.54.jpg" width="460" height="325"></a>
+	<a href="оплатить2.html"><img class="scale" src="https://cdn.discordapp.com/attachments/919610355544653924/922072125785927720/PicsArt_12-19-01.24.25.jpg" width="550" height="325"></a>
+	<a href="оплатить3.html"><img class="scale" src="https://cdn.discordapp.com/attachments/919610355544653924/922483222959501382/PicsArt_12-20-04.38.54.jpg" width="460" height="325"></a>
 	</center>
+	<!-- Side navigation -->
+	<div class="sidenav">
+	  <a href="index.html"><img src="http://s1.iconbird.com/ico/2013/6/269/w512h5121371227588home.png" width="30" height="30"></a>
+	  <a href="Langvich.html"><img src="https://jonkmankindzorg.nl/wp-content/uploads/2015/08/Earth_grid_select_language_button_256.png" width="30" height="30"></a>
+	  <!--<a href="Settings.html"><img src="http://s1.iconbird.com/ico/2013/9/452/w512h5121380477044settings.png" width="30" height="30"></a>-->
+	  <a href="https://www.youtube.com/channel/UCRYFS6uwZdkwJaQi8SdNPxg"><img src="https://pngicon.ru/file/uploads/youtube-1.png" width="30" height="30"></a>
+	  <a href="https://discord.gg/g2Hy5vTV"><img src="https://www.meme-arsenal.com/memes/6db5001b66031bb69f79562e75d56b66.jpg" width="30" height="30"></a>
+	  <a href="https://vk.com/id688104234"><img src="https://pngicon.ru/file/uploads/vk-256x256.png" width="30" height="30"></a>
+	</div>
 </body>
 </html>
